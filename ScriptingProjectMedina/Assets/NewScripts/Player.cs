@@ -1,5 +1,6 @@
-// Player Script
+
 using UnityEngine;
+using System.Collections;
 
 public class Player : MonoBehaviour
 {
@@ -9,12 +10,10 @@ public class Player : MonoBehaviour
     {
         get
         {
-            Debug.Log("Player's experience retrieved: " + experience);
             return experience;
         }
         set
         {
-            Debug.Log("Player's experience set to: " + value);
             experience = value;
         }
     }
@@ -23,13 +22,10 @@ public class Player : MonoBehaviour
     {
         get
         {
-            int level = experience / 1000;
-            Debug.Log("Player's level calculated: " + level);
-            return level;
+            return experience / 1000;
         }
         set
         {
-            Debug.Log("Player's level set to: " + value);
             experience = value * 1000;
         }
     }

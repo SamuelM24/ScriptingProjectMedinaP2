@@ -10,7 +10,5 @@ public class Game : MonoBehaviour
 
         myPlayer.Experience = 5;
         int x = myPlayer.Experience;
-
-        Debug.Log("Player's level: " + myPlayer.Level);
     }
 }
