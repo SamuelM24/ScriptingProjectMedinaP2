@@ -2,16 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SomeClass : MonoBehaviour
+public class SomeClass1
 {
-    public int Add(int num1, int num2)
+    public T GenericMethod<T>(T param)
     {
-        return num1 + num2;
-    }
-
-     public string Add(string str1, string str2)
-    {
-        return str1 + str2;
+        return param;
     }
     // Start is called before the first frame update
     void Start()

@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class SomeOtherClass : MonoBehaviour
@@ -11,11 +10,5 @@ public class SomeOtherClass : MonoBehaviour
 
         myClass.Add(1, 2);
         myClass.Add("Hello ", "World");
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
