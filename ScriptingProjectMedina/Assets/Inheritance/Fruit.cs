@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Fruit
+public class Fruit: MonoBehaviour
 {
     public string color;
 
