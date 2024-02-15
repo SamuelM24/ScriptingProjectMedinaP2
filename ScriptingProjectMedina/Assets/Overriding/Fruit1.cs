@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Fruit1
+public class Fruit1 : MonoBehaviour
 {
     public Fruit1()
     {
